@@ -1,0 +1,49 @@
+@media (max-width: 500px) {
+	.htext h1 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 992px) {
+	header {
+		height: auto;
+	}
+	.navIcons {
+		display: none;
+	}
+	.navbar {
+		flex-direction: column;
+	}
+	.navbar-links {
+		display: flex;
+		flex-direction:column;
+		width:100%;
+		background: rgba(0,0,0,0.2);
+	}
+	.navbar-links ul {
+		width: 100%;
+		flex-direction: column;
+		align-items:flex-start;
+		text-align: center;
+	}
+	.navbar-links ul li {
+		width:100%;
+		text-align: center;
+	}
+		.hbuttons {
+		padding-bottom:100px;
+	}
+	.about {
+		height: auto;
+	}
+	.aboutContent {
+		display:flex;
+		justify-content: center;
+
+	}
+	.ingr0 {
+		width: 100%;
+	}
+
+
+}

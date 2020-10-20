@@ -1,0 +1,212 @@
+* {
+	box-sizing: border-box;
+}
+.nopadding {
+   padding: 0 !important;
+}
+body {
+	padding:0;
+	margin:0;
+}
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+header {
+	background: url("images/headbg.png");
+	display:block;
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height: 750px;/* baigus header nustatyti auto */
+	box-shadow: inset 0px 80px 80px rgba(0, 0, 0, 0.6);
+}
+.logo {
+	background: url("images/logo.png");
+	width:161px;
+	height: 99px;
+}
+.navbar {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	color:white;
+}
+.navbar ul {
+	margin:0;
+	padding:0;
+	display: flex;
+}
+.navbar li {
+	list-style: none;
+}
+.navbar-links {
+	height: 100%;
+}
+.navbar-links ul li a {
+	text-decoration: none;
+	display: block;
+	color:#fff;
+	padding: 35px 20px;
+	font-family: GentiumBookBasic;
+	font-size:21px;
+}
+.navicons {
+	margin:0;
+	padding:0;
+	text-align: left;
+}
+.navIcons ul li {
+	list-style: none;
+}
+.navIconas ul li a {
+	text-decoration: none;
+}
+.fab {
+	color:#dab33e;
+	margin-right:10px;
+}
+.navbar-links li:hover {
+    box-shadow: inset 0px 3px 0px rgba(255, 255, 255, 0.8);
+}
+.headText {
+	margin-top:100px;
+}
+.htext h1 {
+	font-size: 90px;
+	font-family: "YesevaOne";
+	font-weight: bold;
+	color:#fff;
+	text-align: center;
+}
+.hbuttons {
+	margin-top:50px;
+}
+.but0 {
+	display: flex;
+	justify-content: flex-end;
+	align-items: right;
+}
+.but1 {
+	display: flex;
+	justify-content: flex-start;
+}
+.but0 a,.but1 a {
+	color: #fff;
+	text-decoration:none;
+	display: flex;
+	justify-content: right;
+	text-align:right;
+}
+.but0 a{
+	background:rgba(0,0,0,0.8);
+	width:229px;
+	height: 57px;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: "Lato Regular";
+	font-size:18px;
+}
+.but1 a{
+	background:rgba(255,255,255,0.7);
+	width:229px;
+	height: 57px;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: "Lato Regular";
+	font-size:18px;
+}
+.hbuttons a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+.about {
+    background: url("images/aboutBG.png");
+	display:block;
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height: 710px;
+}
+.aboutHeading h2 {
+	font-family: YesevaOne;
+	font-weight: bold;
+	font-size:36px;
+	text-align: center;
+	color:#cc9900;
+}
+.divider {
+	display: flex;
+	justify-content: center;
+}
+.signature {
+	display: flex;
+	justify-content: center;
+	margin-left:60px;
+}
+.desc p {
+	text-align: center;
+	font-family: Lato Regular;
+	font-size:16px;
+	color:#4c4c4c;
+}
+.ingredients {
+    background: url("images/ingredientsBG.png");
+	display:block;
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	width:100%;
+	height: 758px;
+}
+.ingr0 {
+	background: rgba(0,0,0,0.5);
+	width:90%;
+	height: 100%;
+	margin-top:100px;
+}
+.ingr1 {
+	text-align: center;
+	color: #fff;
+	padding:70px 20px;
+}
+.ingr1 h2 {
+	font-family: GentiumBookBasic;
+	font-size:40px; /* pakeisti namuos*/
+}
+.ingr1 p {
+	padding-top: 20px;
+}
+.ingPict {
+	padding-top:40px;
+}
+.menu {
+	background: url("images/menuBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 994px;
+	width: 100%;
+}
+.dishHeader {
+	display: flex;
+	justify-content: space-between;
+	border-bottom:1px solid orange;
+}
+.reviews {
+	background: url("images/reviewBG.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width:100%;
+	height: 1080px;
+}
